@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes and Assignments Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1><b>Section-D Notes and Assignment</b></h1>
+    </div>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="#">Student Details</a></li>
+                <li><a href="#">Contact Coordinator</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">CR</a>
+                    <div class="dropdown-content">
+                        <a href="#">CR1</a>
+                        <a href="#">CR2</a>
+                        <a href="#">CR3</a>
+                    </div>
+                </li>
+                <li><a href="#">Subjects</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <h1>Notes and Assignments Website</h1>
+        <h2>Notes:</h2>
+        <form id="noteForm">
+            <textarea id="noteInput" placeholder="Write your note here..."></textarea>
+            <button type="submit">Save Note</button>
+        </form>
+        <div id="noteList">
+            <!-- Notes will be displayed here -->
+        </div>
+        <hr>
+        <h2>Assignments:</h2>
+        <div class="assignment">
+            <label for="fileUpload">Upload Assignment:</label>
+            <input type="file" id="fileUpload">
+        </div>
+        <div class="task">
+            <h3>Task Class:</h3>
+            <p>Task 1: Complete Assignment 1 by Friday.</p>
+            <p>Task 2: Prepare for Quiz next week.</p>
+        </div>
+        <hr>
+        <h2>Updates:</h2>
+        <div class="update">
+            <p><strong>Update 1:</strong> Deadline for Assignment 1 extended to next Monday.</p>
+            <p><strong>Update 2:</strong> Quiz postponed to the following week.</p>
+        </div>
+        <hr>
+        <h2>Subjects:</h2>
+        <div class="subs">
+            <p><strong>Web Technology:</strong><button class="btn1"><a class=".." href="web.html">Open</a></button></p>
+            <p><strong>Cybersecurity:</strong><button class="btn1"><a class=".." href="cybersecurity.html">Open</a></button></p>
+            <p><strong>Machine Learning:</strong><button class="btn1"><a class=".." href="ML.html">Open</a></button></p>
+            <p><strong>IoT:</strong><button class="btn1"><a class=".." href="iot.html">Open</a></button></p>
+           
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
